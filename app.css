@@ -1,0 +1,91 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(180deg, #fef6ff, #f0f8ff);
+  color: #333;
+}
+h1, h2, h5 {
+  color: #6f42c1;
+}
+header {
+  background-color: #ffe3ec;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 1rem;
+}
+footer {
+  margin-top: 4rem;
+  background-color: #ffe3ec;
+  border-radius: 12px;
+}
+.text-custom-purple { color: #7c3aed !important; }
+.nav-link:hover {
+  color: #7c3aed !important;
+  text-shadow: 0 0 5px #c084fc;
+  transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #7c3aed;
+  color: #7c3aed !important;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #ffe3ec, #f0f8ff);
+  border-bottom: 1px solid #eaeaea;
+  backdrop-filter: blur(8px);
+}
+
+.header-section {
+  background: radial-gradient(circle at center, #ffe3ec, #e0dfff);
+  border-radius: 1rem;
+}
+.about-section {
+  background: linear-gradient(135deg, #e0dfff, #d4f0ff);
+  border-radius: 1rem;
+}
+.workflow-section {
+  background: linear-gradient(135deg, #d4f0ff, #defce9);
+  border-radius: 1rem;
+}
+.case-studies-section {
+  background: linear-gradient(135deg, #defce9, #ffffff);
+  border-radius: 1rem;
+}
+.site-footer {
+  background: linear-gradient(to right, #fbeff5, #e8e6fb);
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #333;
+  border-top: 1px solid #eaeaea;
+}
+.star-image {
+  max-height: 80px;
+  filter: drop-shadow(0 0 6px rgba(255, 192, 203, 0.5));
+}
+
+.profile-img {
+  max-height: 250px;
+  object-fit: cover;
+}
